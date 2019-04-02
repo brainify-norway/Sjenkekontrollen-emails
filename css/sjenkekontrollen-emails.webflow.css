@@ -17,10 +17,6 @@ a {
 }
 
 .header {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 15px;
   padding-bottom: 15px;
   -webkit-box-pack: center;
@@ -30,9 +26,12 @@ a {
   background-color: #262626;
 }
 
-.image {
+.logo {
+  display: block;
   width: 70px;
   height: 70px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .content-section {
